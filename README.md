@@ -68,54 +68,6 @@ portfolio/
 ├── README.md           # Project documentation
 └── .gitignore         # Git ignore rules
 ```
-
-## 🚀 Local Development
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/JasmineHanjra/[repository-name].git
-   cd [repository-name]
-   ```
-
-2. **Open locally**
-   - Simply open `index.html` in your web browser
-   - Or use a local server:
-   ```bash
-   # Python 3
-   python -m http.server 8000
-   
-   # Node.js (if you have live-server installed)
-   npx live-server
-   ```
-
-3. **View in browser**
-   - Navigate to `http://localhost:8000` (if using Python server)
-   - Or directly open the `index.html` file
-
-## 🌐 Deployment
-
-This website is designed for static hosting and is currently deployed on GitHub Pages.
-
-### GitHub Pages Setup
-1. Push all files to your GitHub repository
-2. Go to repository Settings → Pages
-3. Set Source to "Deploy from a branch"
-4. Select branch: `main` and folder: `/ (root)`
-5. Your site will be available at: `https://[username].github.io/[repository-name]`
-
-### Alternative Hosting Options
-- **Netlify**: Drag and drop deployment
-- **Vercel**: Connect GitHub repository for automatic deployments
-- **Traditional hosting**: Upload files via FTP to any web server
-
-## 📱 Browser Compatibility
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-
 ## 🎯 Key Projects Featured
 
 ### Sign Language Detection System
