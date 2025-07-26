@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website showcasing my journey as a Compu
 
 ## 🌟 Live Website
 
-Visit my portfolio: [Your GitHub Pages URL will be here]
+Visit my portfolio: https://jasminehanjra.github.io/JasmineHanjra--portfolio/
 
 ## 📋 About
 
