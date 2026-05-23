@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jasmine Kaur Hanjra - CS & Data Science Student</title>
+    <meta name="description" content="Portfolio of Jasmine Kaur Hanjra, a computer science and data science graduate from Rutgers University and M.S. Computer Science student at NYU Courant.">
+    <title>Jasmine Kaur Hanjra | Computer Science & Data Science</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
                 <a href="#home">Jasmine Hanjra</a>
             </div>
+
             <div class="nav-menu" id="navMenu">
                 <a href="#home" class="nav-link">Home</a>
                 <a href="#about" class="nav-link">About</a>
@@ -22,403 +23,397 @@
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#skills" class="nav-link">Skills</a>
-                <a href="#certifications" class="nav-link">Certifications</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
-            <div class="nav-toggle" id="navToggle">
+
+            <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Jasmine Kaur Hanjra</h1>
-                <h2 class="hero-subtitle">Computer Science & Data Science Student at Rutgers University</h2>
-                <p class="hero-description">
-                    Passionate about machine learning, deep learning, and data visualization with hands-on experience 
-                    developing AI applications. Dean's List student with expertise in advanced analytics and statistical 
-                    modeling to solve real-world problems and deliver measurable results.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                    <a href="Jasmine_Kaur_Hanjra_Resume_Final.pdf" download="Jasmine_Resume.pdf" class="btn btn-secondary">
-                        <i class="fas fa-download"></i> Download Resume
-                    </a>
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content fade-in">
+                    <p class="eyebrow">Computer Science • Data Science • Machine Learning</p>
+                    <h1 class="hero-title">Jasmine Kaur Hanjra</h1>
+                    <h2 class="hero-subtitle">M.S. Computer Science Student at NYU Courant</h2>
+                    <p class="hero-description">
+                        Rutgers Computer Science and Data Science graduate building practical machine learning, data science, and AI tools from messy real-world data.
+                    </p>
 
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <p>
-                    I'm a results-driven senior majoring in Computer Science and Data Science with a minor in Statistics 
-                    at Rutgers University, graduating May 2026. With a cumulative GPA of 3.49 and consistent Dean's List 
-                    recognition, I am passionate about leveraging machine learning, deep learning, and data visualization 
-                    to create innovative solutions.
-                </p>
-                <p>
-                    My interests lie at the intersection of artificial intelligence and real-world problem solving. 
-                    I enjoy developing AI applications that can make a meaningful impact, particularly in areas like 
-                    accessibility and communication. Through my coursework in Deep Learning, Statistical Learning, 
-                    and Bayesian Data Analysis, I've gained a strong foundation in both theoretical concepts and 
-                    practical implementation.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-card">
-                <div class="education-header">
-                    <h3>Bachelor of Science in Computer Science & Data Science</h3>
-                    <span class="education-date">Expected May 2026</span>
-                </div>
-                <p class="education-institution">Rutgers University – New Brunswick, NJ</p>
-                <div class="education-details">
-                    <div class="education-item">
-                        <strong>Minor:</strong> Statistics
-                    </div>
-                    <div class="education-item">
-                        <strong>Cumulative GPA:</strong> 3.49
-                    </div>
-                    <div class="education-item">
-                        <strong>Honors:</strong> Dean's List (Fall 2022, Fall 2023, Fall 2024, Spring 2025)
-                    </div>
-                </div>
-                <div class="coursework">
-                    <h4>Relevant Coursework:</h4>
-                    <div class="coursework-list">
-                        <span class="course">Deep Learning</span>
-                        <span class="course">Introduction to Artificial Intelligence</span>
-                        <span class="course">Statistical Learning</span>
-                        <span class="course">Bayesian Data Analysis</span>
-                        <span class="course">Design & Analysis of Algorithms</span>
-                        <span class="course">Principles of Information & Data Management</span>
-                        <span class="course">Regression Methods</span>
-                        <span class="course">Data Wrangling with R</span>
-                        <span class="course">Data Visualization</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Leadership & Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Board Member</h3>
-                        <span class="experience-date">Aug 2024 – May 2025</span>
-                    </div>
-                    <p class="experience-company">Rutgers Sikh Student Organization – New Brunswick, NJ</p>
-                    <ul class="experience-description">
-                        <li>Plan and execute campus-wide cultural and service events; expanded event attendance by 25% through targeted outreach</li>
-                        <li>Manage budget, logistics, and communications for a diverse student board, strengthening leadership and project management skills</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Volunteer Punjabi Language Instructor</h3>
-                        <span class="experience-date">Aug 2019 – Present</span>
-                    </div>
-                    <p class="experience-company">Khalsa School (Local Community Center)</p>
-                    <ul class="experience-description">
-                        <li>Teach weekly classes on Punjabi language and culture to 15–20 students, developing comprehensive lesson plans and fostering cultural understanding</li>
-                        <li>Enhance public speaking and leadership skills through interactive and collaborative teaching methods</li>
-                    </ul>
-                </div>
-
-                <div class="experience-card">
-                    <div class="experience-header">
-                        <h3>Key Club Volunteer</h3>
-                        <span class="experience-date">Jun 2018 – Dec 2022</span>
-                    </div>
-                    <p class="experience-company">Phillipsburg High School</p>
-                    <ul class="experience-description">
-                        <li>Organized community service initiatives, including food drives and soup kitchen support; contributed 200+ hours of service</li>
-                        <li>Coordinated volunteers and developed creative problem solving strategies in fast-paced, team oriented environments</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-      <div class="container">
-        <h2 class="section-title">Projects</h2>
-        <div class="projects-grid">
-    
-          <div class="project-card">
-            <div class="project-header">
-              <h3>AI Resume ↔ Job Description Matcher</h3>
-              <div class="project-tags">
-                <span class="tag">NLP</span>
-                <span class="tag">SBERT</span>
-                <span class="tag">Streamlit</span>
-              </div>
-            </div>
-            <p class="project-description">
-              Interactive app that compares resumes to job descriptions using TF-IDF and SBERT embeddings.
-              Shows similarity scores, grouped resume metrics, and actionable insights for both applicants and recruiters.
-            </p>
-            <div class="project-links">
-              <a href="https://github.com/JasmineHanjra/Resume-JD-Matcher" class="project-link" target="_blank" rel="noopener">
-                <i class="fab fa-github"></i> GitHub
-              </a>
-              <!-- If you deploy the Streamlit app, add its URL here -->
-              <!-- <a href="YOUR_DEPLOYED_APP_URL" class="project-link" target="_blank" rel="noopener">
-                <i class="fas fa-external-link-alt"></i> Live Demo
-              </a> -->
-            </div>
-          </div>
-    
-          <div class="project-card">
-            <div class="project-header">
-              <h3>Flight Delay Risk Advisor</h3>
-              <div class="project-tags">
-                <span class="tag">Logistic Regression</span>
-                <span class="tag">ML Explainability</span>
-                <span class="tag">Streamlit</span>
-              </div>
-            </div>
-            <p class="project-description">
-              Predicts flight delay probability with a transparent model and simple risk score.
-              Includes feature explanations and a traveler-friendly interface.
-            </p>
-            <div class="project-links">
-              <a href="https://github.com/JasmineHanjra/Flight-Delay-Risk-Advisor" class="project-link" target="_blank" rel="noopener">
-                <i class="fab fa-github"></i> GitHub
-              </a>
-              <!-- <a href="YOUR_DEPLOYED_APP_URL" class="project-link" target="_blank" rel="noopener">
-                <i class="fas fa-external-link-alt"></i> Live Demo
-              </a> -->
-            </div>
-          </div>
-    
-          <div class="project-card">
-            <div class="project-header">
-              <h3>Spotify Popularity Prediction</h3>
-              <div class="project-tags">
-                <span class="tag">Random Forest</span>
-                <span class="tag">Model Tuning</span>
-                <span class="tag">Pandas</span>
-              </div>
-            </div>
-            <p class="project-description">
-              Compares models to predict track popularity; tuned Random Forest with feature importance analysis.
-              Exports the trained model for reuse and quick demos.
-            </p>
-            <div class="project-links">
-              <a href="https://github.com/JasmineHanjra/Spotify-Popularity-Prediction" class="project-link" target="_blank" rel="noopener">
-                <i class="fab fa-github"></i> GitHub
-              </a>
-            </div>
-          </div>
-    
-          <div class="project-card">
-            <div class="project-header">
-              <h3>ASL Sign Language CNN</h3>
-              <div class="project-tags">
-                <span class="tag">Computer Vision</span>
-                <span class="tag">TensorFlow</span>
-                <span class="tag">Keras</span>
-              </div>
-            </div>
-            <p class="project-description">
-              CNN that recognizes American Sign Language hand gestures and translates them to text.
-              Includes data augmentation and a simple web interface for real-time predictions.
-            </p>
-            <div class="project-links">
-              <a href="https://github.com/JasmineHanjra/ASL-Sign-Language-CNN" class="project-link" target="_blank" rel="noopener">
-                <i class="fab fa-github"></i> GitHub
-              </a>
-            </div>
-          </div>
-    
-        </div>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Programming Languages</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">Java</span>
-                        <span class="skill-item">C/C++</span>
-                        <span class="skill-item">SQL</span>
-                        <span class="skill-item">R</span>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="Jasmine_Hanjra_Resume.pdf" download="Jasmine_Hanjra- Resume.pdf" class="btn btn-secondary">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
                     </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3>AI & Machine Learning</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">TensorFlow</span>
-                        <span class="skill-item">PyTorch</span>
-                        <span class="skill-item">Keras</span>
-                        <span class="skill-item">scikit-learn</span>
-                        <span class="skill-item">CNNs</span>
-                        <span class="skill-item">Bayesian Inference</span>
-                        <span class="skill-item">Regression Analysis</span>
+                <aside class="hero-card fade-in" aria-label="Profile highlights">
+                    <div class="hero-card-header">
+                        <span class="status-dot"></span>
+                        <span>Open to internships and collaborations</span>
+                    </div>
+
+                    <div class="stat-list">
+                        <div class="stat-item">
+                            <strong>Rutgers</strong>
+                            <span>B.S. CS & Data Science, Cum Laude</span>
+                        </div>
+
+                        <div class="stat-item">
+                            <strong>NYU Courant</strong>
+                            <span>M.S. Computer Science</span>
+                        </div>
+
+                        <div class="stat-item">
+                            <strong>Focus</strong>
+                            <span>ML, data pipelines, NLP, computer vision</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title fade-in">About Me</h2>
+
+                <div class="about-content fade-in">
+                    <p>
+                        I’m a computer science graduate student at New York University with a B.S. in Computer Science and Data Science from Rutgers University and a minor in Statistics. My background combines machine learning, data analysis, statistical modeling, and software development.
+                    </p>
+
+                    <p>
+                        I’m especially interested in building AI and data-driven tools that solve real problems, from recommendation systems to resume matching and accessibility-focused computer vision projects. I enjoy working with messy datasets, finding patterns, and turning technical ideas into clear, usable systems.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title fade-in">Education</h2>
+
+                <div class="education-card fade-in">
+                    <div class="education-header">
+                        <h3>Master of Science in Computer Science</h3>
+                        <span class="education-date">Jan 2026 – Dec 2027</span>
+                    </div>
+
+                    <p class="education-institution">New York University, Courant Institute – New York, NY</p>
+
+                    <div class="education-details single-line">
+                        <div class="education-item">
+                            <strong>Coursework:</strong> Machine Learning, Fundamental Algorithms, Programming Languages
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3>Data & Visualization</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">NumPy</span>
-                        <span class="skill-item">Pandas</span>
-                        <span class="skill-item">Tableau</span>
-                        <span class="skill-item">Data Wrangling</span>
-                        <span class="skill-item">Statistical Modeling</span>
-                        <span class="skill-item">Interactive Dashboards</span>
+                <div class="education-card fade-in">
+                    <div class="education-header">
+                        <h3>Bachelor of Science in Computer Science & Data Science</h3>
+                        <span class="education-date">Sep 2022 – Dec 2025</span>
                     </div>
-                </div>
 
-                <div class="skill-category">
-                    <h3>Databases & Tools</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">MySQL</span>
-                        <span class="skill-item">MongoDB</span>
-                        <span class="skill-item">Git</span>
-                        <span class="skill-item">Linux</span>
-                        <span class="skill-item">Jupyter</span>
-                        <span class="skill-item">VS Code</span>
+                    <p class="education-institution">Rutgers University – New Brunswick, NJ</p>
+
+                    <div class="education-details">
+                        <div class="education-item">
+                            <strong>Minor:</strong> Statistics
+                        </div>
+
+                        <div class="education-item">
+                            <strong>GPA:</strong> 3.51
+                        </div>
+
+                        <div class="education-item">
+                            <strong>Honors:</strong> Cum Laude, Dean's List: Five Semesters
+                        </div>
+                    </div>
+
+                    <div class="coursework">
+                        <h4>Relevant Coursework</h4>
+
+                        <div class="coursework-list">
+                            <span class="course">Deep Learning</span>
+                            <span class="course">Artificial Intelligence</span>
+                            <span class="course">Bayesian Data Analysis</span>
+                            <span class="course">Statistical Learning</span>
+                            <span class="course">Regression Methods</span>
+                            <span class="course">Data Visualization</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Certifications Section -->
-    <section id="certifications" class="certifications">
-        <div class="container">
-            <h2 class="section-title">Certifications</h2>
-            <div class="certifications-grid">
-                <div class="certification-card">
-                    <div class="certification-header">
-                        <h3>Introduction to Prompt Engineering for Generative AI</h3>
-                        <span class="certification-date">July 2025</span>
-                    </div>
-                    <p class="certification-issuer">LinkedIn Learning</p>
-                    <div class="certification-skills">
-                        <span class="skill-tag">Prompt Engineering</span>
-                        <span class="skill-tag">AI Prompting</span>
-                    </div>
-                </div>
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2 class="section-title fade-in">Experience</h2>
 
-                <div class="certification-card">
-                    <div class="certification-header">
-                        <h3>Google Cloud Foundations</h3>
-                        <span class="certification-date">August 2022</span>
-                    </div>
-                    <p class="certification-issuer">LinkedIn Learning</p>
-                    <div class="certification-skills">
-                        <span class="skill-tag">Cloud Computing</span>
-                        <span class="skill-tag">Google Cloud Platform</span>
-                    </div>
-                </div>
+                <div class="experience-grid">
+                    <div class="experience-card fade-in">
+                        <div class="experience-header">
+                            <h3>Data Science Research Extern - Team Lead</h3>
+                            <span class="experience-date">Sep 2025 – Dec 2025</span>
+                        </div>
 
-                <div class="certification-card">
-                    <div class="certification-header">
-                        <h3>Marketing Strategy: SEO Content Writing</h3>
-                        <span class="certification-date">August 2022</span>
-                    </div>
-                    <p class="certification-issuer">LinkedIn Learning</p>
-                    <div class="certification-skills">
-                        <span class="skill-tag">Marketing Strategy</span>
-                        <span class="skill-tag">SEO</span>
-                        <span class="skill-tag">Content Writing</span>
-                    </div>
-                </div>
+                        <p class="experience-company">DIMACS, Rutgers University – Piscataway, NJ</p>
 
-                <div class="certification-card">
-                    <div class="certification-header">
-                        <h3>Developing Your Emotional Intelligence</h3>
-                        <span class="certification-date">August 2022</span>
+                        <ul class="experience-description">
+                            <li>Led a 4-person research team working with imbalanced datasets, SMOTE, Tomek Links, SPLIT, Random Forest, and XGBoost.</li>
+                            <li>Built Python and SQL data pipelines on the Amarel HPC Cluster to support data processing, validation, and analysis.</li>
+                            <li>Presented findings to a faculty supervisor and managed team documentation, deliverables, and communication.</li>
+                        </ul>
                     </div>
-                    <p class="certification-issuer">LinkedIn Learning</p>
-                    <div class="certification-skills">
-                        <span class="skill-tag">Emotional Intelligence</span>
-                        <span class="skill-tag">Leadership</span>
-                    </div>
-                </div>
 
-                <div class="certification-card">
-                    <div class="certification-header">
-                        <h3>Persuasive Selling</h3>
-                        <span class="certification-date">January 2023</span>
+                    <div class="experience-card fade-in">
+                        <div class="experience-header">
+                            <h3>Punjabi Language Instructor & Curriculum Designer</h3>
+                            <span class="experience-date">2019 – Present</span>
+                        </div>
+
+                        <p class="experience-company">Khalsa School – Easton, PA</p>
+
+                        <ul class="experience-description">
+                            <li>Designed and taught Punjabi language curriculum for 15–20 students per session across different proficiency levels.</li>
+                            <li>Helped grow the program from near-closure to 79 active weekly students over 6+ years.</li>
+                            <li>Tracked student progress and adapted lessons based on ongoing feedback and assessment.</li>
+                        </ul>
                     </div>
-                    <p class="certification-issuer">LinkedIn Learning</p>
-                    <div class="certification-skills">
-                        <span class="skill-tag">Sales Effectiveness</span>
-                        <span class="skill-tag">Communication</span>
+
+                    <div class="experience-card fade-in">
+                        <div class="experience-header">
+                            <h3>Board Member - Logistics & Operations</h3>
+                            <span class="experience-date">Sep 2024 – May 2025</span>
+                        </div>
+
+                        <p class="experience-company">Rutgers Sikh Student Association – New Brunswick, NJ</p>
+
+                        <ul class="experience-description">
+                            <li>Planned 8+ events per semester for 200+ participants, coordinating logistics, budgeting, and vendors.</li>
+                            <li>Increased attendance by 25% through organized communication and student outreach.</li>
+                            <li>Maintained shared records and supported clear communication across the student body.</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-card fade-in">
+                        <div class="experience-header">
+                            <h3>Volunteer Judge - Speech & Debate Competitions</h3>
+                            <span class="experience-date">2024 – Present</span>
+                        </div>
+
+                        <p class="experience-company">New Jersey</p>
+
+                        <ul class="experience-description">
+                            <li>Evaluated 30+ student presentations per cycle and provided structured written feedback under strict deadlines.</li>
+                            <li>Applied consistent judging standards across rounds while supporting student growth and communication skills.</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <p class="contact-description">
-                    I'm always interested in discussing new opportunities, collaborations, or just connecting with 
-                    fellow developers and data scientists. Feel free to reach out!
-                </p>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title fade-in">Projects</h2>
 
+                <div class="projects-grid">
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <h3>musikal - DJ Track Recommendation System</h3>
 
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:hanjrajasmine@gmail.com">hanjrajasmine@gmail.com</a>
+                            <div class="project-tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Audio Features</span>
+                                <span class="tag">Recommendation Systems</span>
+                            </div>
+                        </div>
+
+                        <p class="project-description">
+                            Built a DJ track recommendation system using 64,754 real DJ transitions and audio features including BPM, MFCC, and chroma. Trained and evaluated four ML models, with Gradient Boosting reaching 77% test accuracy and about 5x Recall@1 over a random baseline.
+                        </p>
+
+                        <div class="project-links">
+                            <a href="https://github.com/JasmineHanjra" class="project-link" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>New Brunswick, NJ</span>
+
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <h3>AI Resume - Job Description Matcher</h3>
+
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">NLP</span>
+                                <span class="tag">SBERT</span>
+                                <span class="tag">Streamlit</span>
+                            </div>
+                        </div>
+
+                        <p class="project-description">
+                            Built an end-to-end NLP pipeline benchmarking SBERT and TF-IDF for resume-job description matching, with similarity scoring and an interactive Streamlit dashboard.
+                        </p>
+
+                        <div class="project-links">
+                            <a href="https://github.com/JasmineHanjra/Resume-JD-Matcher" class="project-link" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="social-links">
-                    <a href="https://linkedin.com/in/jasminehanjra" target="_blank" class="social-link">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/JasmineHanjra" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i>
-                    </a>
+
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <h3>ASL Sign Language Detection</h3>
+
+                            <div class="project-tags">
+                                <span class="tag">Computer Vision</span>
+                                <span class="tag">TensorFlow</span>
+                                <span class="tag">Keras</span>
+                                <span class="tag">CNN</span>
+                            </div>
+                        </div>
+
+                        <p class="project-description">
+                            Designed and tuned a CNN for American Sign Language image classification, reaching about 95% validation accuracy through structured dataset validation and hyperparameter tuning.
+                        </p>
+
+                        <div class="project-links">
+                            <a href="https://github.com/JasmineHanjra/ASL-Sign-Language-CNN" class="project-link" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card fade-in">
+                        <div class="project-header">
+                            <h3>Flight Delay Risk Advisor</h3>
+
+                            <div class="project-tags">
+                                <span class="tag">Logistic Regression</span>
+                                <span class="tag">SHAP</span>
+                                <span class="tag">Streamlit</span>
+                            </div>
+                        </div>
+
+                        <p class="project-description">
+                            Built a traveler-friendly machine learning app that estimates flight delay risk and explains the main factors behind each prediction using interpretable model outputs.
+                        </p>
+
+                        <div class="project-links">
+                            <a href="https://github.com/JasmineHanjra/Flight-Delay-Risk-Advisor" class="project-link" target="_blank" rel="noopener">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title fade-in">Technical Skills</h2>
+
+                <div class="skills-grid">
+                    <div class="skill-category fade-in">
+                        <h3>Programming & Data</h3>
+
+                        <div class="skill-items">
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">SQL</span>
+                            <span class="skill-item">R</span>
+                            <span class="skill-item">Java</span>
+                            <span class="skill-item">pandas</span>
+                            <span class="skill-item">NumPy</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category fade-in">
+                        <h3>Machine Learning</h3>
+
+                        <div class="skill-items">
+                            <span class="skill-item">scikit-learn</span>
+                            <span class="skill-item">TensorFlow</span>
+                            <span class="skill-item">PyTorch</span>
+                            <span class="skill-item">Keras</span>
+                            <span class="skill-item">Statistical Modeling</span>
+                            <span class="skill-item">Model Evaluation</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category fade-in">
+                        <h3>Tools & Platforms</h3>
+
+                        <div class="skill-items">
+                            <span class="skill-item">Streamlit</span>
+                            <span class="skill-item">Tableau</span>
+                            <span class="skill-item">Git</span>
+                            <span class="skill-item">Linux/Unix</span>
+                            <span class="skill-item">Amarel HPC</span>
+                            <span class="skill-item">Google Workspace</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category fade-in">
+                        <h3>Other</h3>
+
+                        <div class="skill-items">
+                            <span class="skill-item">Canva</span>
+                            <span class="skill-item">Microsoft Office</span>
+                            <span class="skill-item">English</span>
+                            <span class="skill-item">Punjabi</span>
+                            <span class="skill-item">Hindi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title fade-in">Get In Touch</h2>
+
+                <div class="contact-content fade-in">
+                    <p class="contact-description">
+                        I’m open to internships, research opportunities, and collaborations in software engineering, machine learning, and data science.
+                    </p>
+
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:hanjrajasmine@gmail.com">hanjrajasmine@gmail.com</a>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>New York, NY</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/jasminehanjra" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn profile">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/JasmineHanjra" target="_blank" rel="noopener" class="social-link" aria-label="GitHub profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Jasmine Kaur Hanjra. All rights reserved.</p>
+            <p>&copy; 2026 Jasmine Kaur Hanjra. All rights reserved.</p>
         </div>
     </footer>
 
